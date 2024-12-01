@@ -2,13 +2,17 @@
 //  xcode_courseUITests.swift
 //  xcode-courseUITests
 //
-//  Created by stephen eshelman on 10/24/24.
+//  Created by stephen eshelman on 10/25/24.
 //
 
 import XCTest
 
 final class xcode_courseUITests: XCTestCase {
 
+   func performAction(_ action: @escaping () -> Void) {
+
+   }
+   
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
 
@@ -27,7 +31,7 @@ final class xcode_courseUITests: XCTestCase {
         // UI tests must launch the application that they test.
         let app = XCUIApplication()
         app.launch()
-
+       
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
 

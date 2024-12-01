@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		73016F612CCA8EA9005A9181 /* PBXContainerItemProxy */ = {
+		73E245402CCC49180042F099 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 73016F472CCA8EA8005A9181 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 73016F4E2CCA8EA8005A9181;
 			remoteInfo = "xcode-course";
 		};
-		73016F6B2CCA8EA9005A9181 /* PBXContainerItemProxy */ = {
+		73E2454F2CCC4A100042F099 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 73016F472CCA8EA8005A9181 /* Project object */;
 			proxyType = 1;
@@ -25,8 +25,8 @@
 
 /* Begin PBXFileReference section */
 		73016F4F2CCA8EA8005A9181 /* xcode-course.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "xcode-course.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		73016F602CCA8EA9005A9181 /* xcode-courseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "xcode-courseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		73016F6A2CCA8EA9005A9181 /* xcode-courseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "xcode-courseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73E2453C2CCC49180042F099 /* xcode-courseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "xcode-courseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73E245492CCC4A100042F099 /* xcode-courseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "xcode-courseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -35,12 +35,12 @@
 			path = "xcode-course";
 			sourceTree = "<group>";
 		};
-		73016F632CCA8EA9005A9181 /* xcode-courseTests */ = {
+		73E2453D2CCC49180042F099 /* xcode-courseTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "xcode-courseTests";
 			sourceTree = "<group>";
 		};
-		73016F6D2CCA8EA9005A9181 /* xcode-courseUITests */ = {
+		73E2454A2CCC4A100042F099 /* xcode-courseUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "xcode-courseUITests";
 			sourceTree = "<group>";
@@ -55,14 +55,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		73016F5D2CCA8EA9005A9181 /* Frameworks */ = {
+		73E245392CCC49180042F099 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		73016F672CCA8EA9005A9181 /* Frameworks */ = {
+		73E245462CCC4A100042F099 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,8 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				73016F512CCA8EA8005A9181 /* xcode-course */,
-				73016F632CCA8EA9005A9181 /* xcode-courseTests */,
-				73016F6D2CCA8EA9005A9181 /* xcode-courseUITests */,
+				73E2453D2CCC49180042F099 /* xcode-courseTests */,
+				73E2454A2CCC4A100042F099 /* xcode-courseUITests */,
 				73016F502CCA8EA8005A9181 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,8 +86,8 @@
 			isa = PBXGroup;
 			children = (
 				73016F4F2CCA8EA8005A9181 /* xcode-course.app */,
-				73016F602CCA8EA9005A9181 /* xcode-courseTests.xctest */,
-				73016F6A2CCA8EA9005A9181 /* xcode-courseUITests.xctest */,
+				73E2453C2CCC49180042F099 /* xcode-courseTests.xctest */,
+				73E245492CCC4A100042F099 /* xcode-courseUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,50 +117,50 @@
 			productReference = 73016F4F2CCA8EA8005A9181 /* xcode-course.app */;
 			productType = "com.apple.product-type.application";
 		};
-		73016F5F2CCA8EA9005A9181 /* xcode-courseTests */ = {
+		73E2453B2CCC49180042F099 /* xcode-courseTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 73016F772CCA8EA9005A9181 /* Build configuration list for PBXNativeTarget "xcode-courseTests" */;
+			buildConfigurationList = 73E245422CCC49180042F099 /* Build configuration list for PBXNativeTarget "xcode-courseTests" */;
 			buildPhases = (
-				73016F5C2CCA8EA9005A9181 /* Sources */,
-				73016F5D2CCA8EA9005A9181 /* Frameworks */,
-				73016F5E2CCA8EA9005A9181 /* Resources */,
+				73E245382CCC49180042F099 /* Sources */,
+				73E245392CCC49180042F099 /* Frameworks */,
+				73E2453A2CCC49180042F099 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				73016F622CCA8EA9005A9181 /* PBXTargetDependency */,
+				73E245412CCC49180042F099 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				73016F632CCA8EA9005A9181 /* xcode-courseTests */,
+				73E2453D2CCC49180042F099 /* xcode-courseTests */,
 			);
 			name = "xcode-courseTests";
 			packageProductDependencies = (
 			);
 			productName = "xcode-courseTests";
-			productReference = 73016F602CCA8EA9005A9181 /* xcode-courseTests.xctest */;
+			productReference = 73E2453C2CCC49180042F099 /* xcode-courseTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		73016F692CCA8EA9005A9181 /* xcode-courseUITests */ = {
+		73E245482CCC4A100042F099 /* xcode-courseUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 73016F7A2CCA8EA9005A9181 /* Build configuration list for PBXNativeTarget "xcode-courseUITests" */;
+			buildConfigurationList = 73E245512CCC4A100042F099 /* Build configuration list for PBXNativeTarget "xcode-courseUITests" */;
 			buildPhases = (
-				73016F662CCA8EA9005A9181 /* Sources */,
-				73016F672CCA8EA9005A9181 /* Frameworks */,
-				73016F682CCA8EA9005A9181 /* Resources */,
+				73E245452CCC4A100042F099 /* Sources */,
+				73E245462CCC4A100042F099 /* Frameworks */,
+				73E245472CCC4A100042F099 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				73016F6C2CCA8EA9005A9181 /* PBXTargetDependency */,
+				73E245502CCC4A100042F099 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				73016F6D2CCA8EA9005A9181 /* xcode-courseUITests */,
+				73E2454A2CCC4A100042F099 /* xcode-courseUITests */,
 			);
 			name = "xcode-courseUITests";
 			packageProductDependencies = (
 			);
 			productName = "xcode-courseUITests";
-			productReference = 73016F6A2CCA8EA9005A9181 /* xcode-courseUITests.xctest */;
+			productReference = 73E245492CCC4A100042F099 /* xcode-courseUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -171,16 +171,16 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1610;
-				LastUpgradeCheck = 1610;
+				LastUpgradeCheck = 1620;
 				TargetAttributes = {
 					73016F4E2CCA8EA8005A9181 = {
 						CreatedOnToolsVersion = 16.1;
 					};
-					73016F5F2CCA8EA9005A9181 = {
+					73E2453B2CCC49180042F099 = {
 						CreatedOnToolsVersion = 16.1;
 						TestTargetID = 73016F4E2CCA8EA8005A9181;
 					};
-					73016F692CCA8EA9005A9181 = {
+					73E245482CCC4A100042F099 = {
 						CreatedOnToolsVersion = 16.1;
 						TestTargetID = 73016F4E2CCA8EA8005A9181;
 					};
@@ -201,8 +201,8 @@
 			projectRoot = "";
 			targets = (
 				73016F4E2CCA8EA8005A9181 /* xcode-course */,
-				73016F5F2CCA8EA9005A9181 /* xcode-courseTests */,
-				73016F692CCA8EA9005A9181 /* xcode-courseUITests */,
+				73E2453B2CCC49180042F099 /* xcode-courseTests */,
+				73E245482CCC4A100042F099 /* xcode-courseUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -215,14 +215,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		73016F5E2CCA8EA9005A9181 /* Resources */ = {
+		73E2453A2CCC49180042F099 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		73016F682CCA8EA9005A9181 /* Resources */ = {
+		73E245472CCC4A100042F099 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -239,14 +239,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		73016F5C2CCA8EA9005A9181 /* Sources */ = {
+		73E245382CCC49180042F099 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		73016F662CCA8EA9005A9181 /* Sources */ = {
+		73E245452CCC4A100042F099 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -256,15 +256,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		73016F622CCA8EA9005A9181 /* PBXTargetDependency */ = {
+		73E245412CCC49180042F099 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 73016F4E2CCA8EA8005A9181 /* xcode-course */;
-			targetProxy = 73016F612CCA8EA9005A9181 /* PBXContainerItemProxy */;
+			targetProxy = 73E245402CCC49180042F099 /* PBXContainerItemProxy */;
 		};
-		73016F6C2CCA8EA9005A9181 /* PBXTargetDependency */ = {
+		73E245502CCC4A100042F099 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 73016F4E2CCA8EA8005A9181 /* xcode-course */;
-			targetProxy = 73016F6B2CCA8EA9005A9181 /* PBXContainerItemProxy */;
+			targetProxy = 73E2454F2CCC4A100042F099 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -303,6 +303,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -364,6 +365,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -391,7 +393,9 @@
 				CODE_SIGN_ENTITLEMENTS = "xcode-course/xcode_course.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"xcode-course/Preview Content\"";
+				DEVELOPMENT_TEAM = 6AP8DGBG6H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -428,7 +432,9 @@
 				CODE_SIGN_ENTITLEMENTS = "xcode-course/xcode_course.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"xcode-course/Preview Content\"";
+				DEVELOPMENT_TEAM = 6AP8DGBG6H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -457,12 +463,13 @@
 			};
 			name = Release;
 		};
-		73016F782CCA8EA9005A9181 /* Debug */ = {
+		73E245432CCC49180042F099 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				MACOSX_DEPLOYMENT_TARGET = 15.0;
@@ -479,12 +486,13 @@
 			};
 			name = Debug;
 		};
-		73016F792CCA8EA9005A9181 /* Release */ = {
+		73E245442CCC49180042F099 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				MACOSX_DEPLOYMENT_TARGET = 15.0;
@@ -501,11 +509,12 @@
 			};
 			name = Release;
 		};
-		73016F7B2CCA8EA9005A9181 /* Debug */ = {
+		73E245522CCC4A100042F099 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				MACOSX_DEPLOYMENT_TARGET = 15.0;
@@ -522,11 +531,12 @@
 			};
 			name = Debug;
 		};
-		73016F7C2CCA8EA9005A9181 /* Release */ = {
+		73E245532CCC4A100042F099 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				MACOSX_DEPLOYMENT_TARGET = 15.0;
@@ -564,20 +574,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		73016F772CCA8EA9005A9181 /* Build configuration list for PBXNativeTarget "xcode-courseTests" */ = {
+		73E245422CCC49180042F099 /* Build configuration list for PBXNativeTarget "xcode-courseTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				73016F782CCA8EA9005A9181 /* Debug */,
-				73016F792CCA8EA9005A9181 /* Release */,
+				73E245432CCC49180042F099 /* Debug */,
+				73E245442CCC49180042F099 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		73016F7A2CCA8EA9005A9181 /* Build configuration list for PBXNativeTarget "xcode-courseUITests" */ = {
+		73E245512CCC4A100042F099 /* Build configuration list for PBXNativeTarget "xcode-courseUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				73016F7B2CCA8EA9005A9181 /* Debug */,
-				73016F7C2CCA8EA9005A9181 /* Release */,
+				73E245522CCC4A100042F099 /* Debug */,
+				73E245532CCC4A100042F099 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
