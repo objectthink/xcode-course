@@ -31,6 +31,7 @@ struct ContentView: View {
             
             TextField("Amount", text: $total)
                .font(.title)
+               .keyboardType(.numberPad)
 //            Text(total)
 //               .font(.title)
             
